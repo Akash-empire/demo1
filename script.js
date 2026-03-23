@@ -109,7 +109,7 @@ let replies = [
   { q: ["give me idea"], a: "Start something small today" },
   { q: ["what next"], a: "Keep moving forward" },
   { q: ["your name", "who are you", "what is your name"], a: "I am your chatbot 🤖" },
-  { q: ["fine"], a: "Good to hear 😊" }
+  { q: ["fine"], a: "Good to hear 😊" },
   { q: ["fine"], a: "Good to hear 😊" }
 ];
 
