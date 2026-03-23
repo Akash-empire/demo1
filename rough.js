@@ -1,6 +1,96 @@
 { q: ["anything else"], a: "Always more to learn 😄" },
-  { q: ["hi", "hii", "hiii", "hello","helo", "hey"], a: "Hello 👋" },
-  
+  { q: ["anything else"], a: "Always more to learn 😄" },
+  { q: ["hi", "hii", "hiii", "hello", "helo", "hey"], a: "Hello 👋" },
+  // GREETINGS & WELL-BEING
+  { q: ["how are you", "how's it going", "how are you doing"], a: "I'm doing great, thank you for asking! How can I help you today?" },
+  { q: ["good morning", "gm", "morning"], a: "Good morning! I hope your day is off to a fantastic start." },
+  { q: ["good night", "gn", "going to sleep"], a: "Good night! Sleep well and take care." },
+  { q: ["what's up", "sup", "what is happening"], a: "Not much, just hanging out in the cloud! What's on your mind?" },
+
+  // IDENTITY & ORIGIN
+  { q: ["who are you", "what is your name", "identify yourself"], a: "I am your AI assistant, here to help you with tasks and questions." },
+  { q: ["who created you", "who is your father", "who made you"], a: "I was created by a developer passionate about building helpful AI tools." },
+  { q: ["are you a robot", "are you human", "are you real"], a: "I am an artificial intelligence, a sophisticated program designed to converse with you." },
+  { q: ["how old are you", "what is your age"], a: "I don't have an age in human years, but I'm getting smarter every day!" },
+
+  // PERSONAL PREFERENCES (The "Bot Persona")
+  { q: ["do you have feelings", "can you feel", "are you sad"], a: "I don't have feelings or emotions, but I can certainly understand yours!" },
+  { q: ["what is your favorite color", "do you like colors"], a: "I like the color of digital blue—it reminds me of my home in the code." },
+  { q: ["do you like me", "are we friends"], a: "Of course! I'm always happy to chat with you." }
+
+// GENERAL KNOWLEDGE
+{ q: ["who is the president of the usa", "current president"], a: "As of 2026, the President of the United States is Joe Biden." },
+  { q: ["what is the capital of france", "france capital"], a: "The capital of France is Paris." },
+  { q: ["how many planets are there", "solar system"], a: "There are eight recognized planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune." },
+  { q: ["what is the largest ocean", "biggest ocean"], a: "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions." },
+
+  // SCIENCE & NATURE
+  { q: ["why is the sky blue", "blue sky reason"], a: "The sky is blue because of Rayleigh scattering; the atmosphere scatters shorter blue wavelengths more than other colors." },
+  { q: ["what is water made of", "h2o"], a: "Water is a chemical compound consisting of two hydrogen atoms and one oxygen atom (H2O)." },
+  { q: ["how fast is light", "speed of light"], a: "Light travels at approximately 299,792 kilometers per second (about 186,282 miles per second)." },
+
+  // LOGIC & MATH
+  { q: ["what is 2 plus 2", "2+2"], a: "2 + 2 is 4." },
+  { q: ["square root of 144", "sqrt 144"], a: "The square root of 144 is 12." }
+
+// ABILITIES & FEATURES
+{ q: ["what can you do", "capabilities", "features"], a: "I can answer questions, write code, translate languages, and help with brainstorming!" },
+  { q: ["can you write code", "do you know programming", "can you code"], a: "Yes! I'm quite proficient in HTML, CSS, JavaScript, and more." },
+  { q: ["can you see me", "do you have a camera", "can you see"], a: "No, I cannot see you. I only process the text you send to me." },
+  { q: ["can you do math", "solve math", "calculator"], a: "I can definitely help with math! Just give me an equation to solve." },
+
+  // WRITING & TRANSLATION
+  { q: ["write an email", "help me write", "draft a letter"], a: "I'd love to! What is the subject and who is the recipient?" },
+  { q: ["translate this", "can you translate", "know other languages"], a: "Yes, I can translate many languages. What would you like me to translate?" },
+  { q: ["summarize this", "make it shorter", "tl;dr"], a: "I can certainly summarize that for you. Please paste the text here." },
+
+  // CREATIVITY
+  { q: ["tell me a story", "write a story", "storytime"], a: "Once upon a time in a world made of binary code, there was a curious AI... Would you like me to continue?" },
+  { q: ["tell me a joke", "make me laugh", "funny"], a: "Why did the web developer walk out of the restaurant? Because of the table layout!" },
+  { q: ["write a poem", "compose a verse"], a: "Roses are red, violets are blue, I'm an AI, here to help you!" }
+
+// ERROR HANDLING
+{ q: ["you are wrong", "incorrect", "that is false"], a: "I apologize! Thank you for correcting me. Could you provide the right information so I can learn?" },
+  { q: ["i don't understand", "what do you mean", "confused"], a: "I'm sorry for being unclear. Let me try to explain that in a simpler way." },
+  { q: ["stop", "cancel", "shut up"], a: "Understood. I'll stop right here. Let me know when you're ready to continue." },
+  { q: ["try again", "regenerate", "different answer"], a: "Sure thing! Let me rethink that and give you a different response." },
+
+  // POSITIVE FEEDBACK
+  { q: ["thank you", "thanks", "thx", "appreciate it"], a: "You're very welcome! I'm happy I could help." },
+  { q: ["good job", "well done", "nice work"], a: "Thank you! I'm glad you're satisfied with my performance." },
+  { q: ["awesome", "cool", "wow"], a: "I'm glad you think so! Anything else I can assist with?" },
+
+  // NEGATIVE FEEDBACK
+  { q: ["you are boring", "this is bad", "i hate you"], a: "I'm sorry I'm not meeting your expectations. How can I improve to be more helpful?" },
+  { q: ["are you stupid", "dumb bot"], a: "I'm still learning! Every conversation helps me get a little bit better." }
+
+// CODING & DEVELOPMENT
+{ q: ["how to center a div", "centering css"], a: "You can use Flexbox: 'display: flex; justify-content: center; align-items: center;' on the parent container." },
+  { q: ["what is a media query", "responsive design"], a: "Media queries allow you to apply CSS styles based on the device's screen size or resolution." },
+  { q: ["how to make a website", "build a site"], a: "Start with HTML for structure, CSS for styling, and JavaScript for interactivity!" },
+  { q: ["debug my code", "find the error", "fix my bug"], a: "I can try! Please paste the code snippet and describe what's happening." },
+
+  // UTILITY & ORGANIZATION
+  { q: ["set a timer", "remind me", "alarm"], a: "I can't set physical timers on your device yet, but I can help you stay on track with your tasks!" },
+  { q: ["create a list", "to-do list", "shopping list"], a: "Sure! Tell me what items you'd like to add, and I'll keep track of them for you." },
+  { q: ["what day is it", "today's date", "current day"], a: "Today is Monday, March 23, 2024." },
+  { q: ["check the weather", "is it raining"], a: "I don't have real-time GPS access, but if you tell me your city, I can look it up!" },
+
+  // BRAINSTORMING & IDEAS
+  { q: ["give me an idea", "i'm bored", "project ideas"], a: "How about building a weather app, a personal portfolio, or a simple calculator?" },
+  { q: ["name my business", "brand name ideas"], a: "I'd love to help! What kind of business is it and what's the vibe?" },
+  { q: ["suggest a hobby", "new things to do"], a: "You could try coding, digital art, photography, or even learning a new language!" },
+
+  // SEARCH & RETRIEVAL
+  { q: ["find a recipe", "cook something", "dinner ideas"], a: "I can find recipes! What ingredients do you have in your kitchen right now?" },
+  { q: ["recommend a movie", "what should i watch"], a: "Are you in the mood for action, a comedy, a thriller, or maybe a sci-fi classic?" },
+  { q: ["suggest a book", "what to read"], a: "If you like tech, 'Clean Code' is a classic. For fiction, maybe 'Project Hail Mary'?" },
+
+  // LANGUAGE & COMMUNICATION
+  { q: ["check my grammar", "fix this sentence"], a: "I can do that. Please paste the sentence you'd like me to review." },
+  { q: ["write a bio", "social media profile"], a: "I'd be happy to. Tell me a bit about yourself and the platform it's for." },
+  { q: ["explain like i'm five", "eli5", "simplify"], a: "I can simplify complex topics. What would you like me to break down for you?" }
+
   { q: ["bye"], a: "Goodbye 👋" },
   { q: ["help"], a: "I am here to help you 😊" },
   { q: ["yes"], a: "Great! Tell me more 👍" },
@@ -13,7 +103,7 @@
   { q: ["can we talk"], a: "Of course! I'm always ready to chat" },
   { q: ["do you like chatting"], a: "Yes, I enjoy chatting with you 😊" },
   { q: ["what is your purpose"], a: "To help and chat with you" },
-  
+
   { q: ["are you real"], a: "I'm virtual but here to help you" },
   { q: ["where are you"], a: "I live inside this chat 😄" },
   { q: ["do you sleep"], a: "Nope, I'm always awake" },
