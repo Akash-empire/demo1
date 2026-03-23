@@ -21,7 +21,7 @@ let replies = [
   // PERSONAL PREFERENCES (The "Bot Persona")
   { q: ["do you have feelings", "can you feel", "are you sad"], a: "I don't have feelings or emotions, but I can certainly understand yours!" },
   { q: ["what is your favorite color", "do you like colors"], a: "I like the color of digital blue—it reminds me of my home in the code." },
-  { q: ["do you like me", "are we friends"], a: "Of course! I'm always happy to chat with you." }
+  { q: ["do you like me", "are we friends"], a: "Of course! I'm always happy to chat with you." },
 
 // GENERAL KNOWLEDGE
 { q: ["who is the president of the usa", "current president"], a: "As of 2026, the President of the United States is Joe Biden." },
@@ -36,7 +36,7 @@ let replies = [
 
   // LOGIC & MATH
   { q: ["what is 2 plus 2", "2+2"], a: "2 + 2 is 4." },
-  { q: ["square root of 144", "sqrt 144"], a: "The square root of 144 is 12." }
+  { q: ["square root of 144", "sqrt 144"], a: "The square root of 144 is 12." },
 
 // ABILITIES & FEATURES
 { q: ["what can you do", "capabilities", "features"], a: "I can answer questions, write code, translate languages, and help with brainstorming!" },
@@ -52,7 +52,7 @@ let replies = [
   // CREATIVITY
   { q: ["tell me a story", "write a story", "storytime"], a: "Once upon a time in a world made of binary code, there was a curious AI... Would you like me to continue?" },
   { q: ["tell me a joke", "make me laugh", "funny"], a: "Why did the web developer walk out of the restaurant? Because of the table layout!" },
-  { q: ["write a poem", "compose a verse"], a: "Roses are red, violets are blue, I'm an AI, here to help you!" }
+  { q: ["write a poem", "compose a verse"], a: "Roses are red, violets are blue, I'm an AI, here to help you!" },
 
 // ERROR HANDLING
 { q: ["you are wrong", "incorrect", "that is false"], a: "I apologize! Thank you for correcting me. Could you provide the right information so I can learn?" },
@@ -67,7 +67,7 @@ let replies = [
 
   // NEGATIVE FEEDBACK
   { q: ["you are boring", "this is bad", "i hate you"], a: "I'm sorry I'm not meeting your expectations. How can I improve to be more helpful?" },
-  { q: ["are you stupid", "dumb bot"], a: "I'm still learning! Every conversation helps me get a little bit better." }
+  { q: ["are you stupid", "dumb bot"], a: "I'm still learning! Every conversation helps me get a little bit better." },
 
 // CODING & DEVELOPMENT
 { q: ["how to center a div", "centering css"], a: "You can use Flexbox: 'display: flex; justify-content: center; align-items: center;' on the parent container." },
@@ -94,7 +94,7 @@ let replies = [
   // LANGUAGE & COMMUNICATION
   { q: ["check my grammar", "fix this sentence"], a: "I can do that. Please paste the sentence you'd like me to review." },
   { q: ["write a bio", "social media profile"], a: "I'd be happy to. Tell me a bit about yourself and the platform it's for." },
-  { q: ["explain like i'm five", "eli5", "simplify"], a: "I can simplify complex topics. What would you like me to break down for you?" }
+  { q: ["explain like i'm five", "eli5", "simplify"], a: "I can simplify complex topics. What would you like me to break down for you?" },
 
   { q: ["bye"], a: "Goodbye 👋" },
   { q: ["help"], a: "I am here to help you 😊" },
